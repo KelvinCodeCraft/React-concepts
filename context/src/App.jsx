@@ -3,6 +3,8 @@ import { createContext, useContext, useState } from 'react';
 const ThemeContext = createContext(null);
 const CurrentUserContext = createContext(null);
 
+
+
 export default function MyApp() {
   const [theme, setTheme] = useState('light');
   const [currentUser, setCurrentUser] = useState(null);
